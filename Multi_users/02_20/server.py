@@ -7,6 +7,7 @@ PORT = 12345        # 사용할 포트 번호
 # 소켓 생성 (IPv4, TCP 방식)
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
+
 # IP 및 포트 바인딩
 server_socket.bind((HOST, PORT))
 
